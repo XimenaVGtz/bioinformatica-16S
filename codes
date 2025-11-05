@@ -1,0 +1,4 @@
+$ wget -c https://data.qiime2.org/distro/core/qiime2-2023.5-py38-linux-conda.yml
+$ conda env create -n qiime2-2023.5 --file qiime2-2023.5-py38-linux-conda.yml
+$ conda activate qiime2-2023.5
+$ qiime --help
